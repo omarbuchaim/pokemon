@@ -1,0 +1,71 @@
+.button {
+    margin-bottom: 30px;
+}
+
+#selectInput:hover , #numeroInput:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+#selectInput{
+    min-height: 21px; 
+    min-width: 30px;
+}
+
+.backgroundcolor {
+    font-size: 12px;
+    background-color: red;
+    background-image:
+        linear-gradient(
+            red, #f06d06
+        );
+}
+
+.box-inputs {
+    padding: 10px 20px;
+    border: solid 1px grey;
+    background-color: rgb(211, 211, 211);
+    width: 295px;
+    position: block;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.li {
+    text-transform: uppercase;
+    text-align: center;
+    border: solid 1px rgb(97, 96, 96);
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #972929;
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+}
+
+.none {
+    display:none;
+}
+
+.item {
+    flex: 1;
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+    font-size: 1.5em;
+    min-width: 250px; 
+}
+
+.make-scrolling {
+    overflow-y: scroll;
+}
